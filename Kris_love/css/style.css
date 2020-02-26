@@ -1,0 +1,148 @@
+span {
+  font-family: "Monotype Corsiva Regular";
+  font-size: 2rem;
+  color: #e9adae;
+}
+.full {
+  background: #ffffff url(../img/main-bgr2.jpg) center center no-repeat;
+  background-size: cover;
+  /*background-position: right ;*/
+}
+.header {
+  text-align: left;
+  padding-top: 6rem;
+  margin-right: -51px;
+}
+.header h1 {
+  font-size: 40px;
+  font-family: "Monotype Corsiva Regular";
+  font-weight: bold;
+  color: #e9adae;
+}
+.first-screen-text-and-image {
+  padding-top: 10rem;
+  display: block;
+  height: 400px;
+}
+.thirst-screen-text-and-image {
+  display: block;
+  height: 450px;
+}
+
+.thirst-screen-text-and-image .row .col-md-4 .img_text {
+  padding-top: 1rem;
+}
+.container.sec .row .col-md-4.left-sec .lake {
+  padding-left: 1rem;
+}
+.container.sec .row .col-md-4.right-sec .lake {
+  margin-left: -1rem;
+  padding-right: 1rem;
+  width: 265px;
+}
+.thirst-screen-text-and-image .row .col-md-4.im {
+  position: absolute;
+  left: 20%;
+}
+.img1 {
+  padding-right: 150px;
+}
+.img3 {
+  margin-right: 60px;
+}
+.img_text {
+  padding-top: 8rem;
+  display: inline-block;
+}
+.img2 {
+  margin-bottom: 20px;
+}
+.container {
+  height: 1268px;
+}
+.second-screen-text-and-image {
+  height: 300px;
+}
+.second-screen-text-and-image .row {
+  height: 350px;
+}
+.img-text {
+  padding-top: 8rem;
+  display: inline-block;
+}
+.container.sec {
+  height: 74rem;
+  padding-top: -0.5rem;
+}
+.container.sec .row {
+  height: 350px;
+  display: block;
+}
+.container.sec .row .col-md-4 {
+  height: 350px;
+}
+.container.sec .row .left-sec {
+  padding-left: 15rem;
+}
+.container.sec .row .right-sec {
+  margin-left: 20px;
+}
+.container.sec .row .mid-sec {
+  padding-left: 4.3rem;
+}
+.container.sec .rows2 {
+  padding-top: 1rem;
+}
+.lake {
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+.lake:before {
+  display: block;
+  background-color: #000000;
+  content: "";
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.lake:after {
+  font-family: 'Lucida Console';
+  color: white;
+  content: attr(alt);
+  display: block;
+  font-size: 16px;
+  opacity: 0;
+  padding: 0 3%;
+  position: absolute;
+  text-transform: none;
+  top: 50%;
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: scale(0) translateY(-50%);
+  transform: scale(0) translateY(-50%);
+  width: 94%;
+  z-index: 3;
+}
+.lake img {
+  border: none;
+  display: block;
+  z-index: 1;
+}
+.lake:after {
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+.lake:hover:before {
+  opacity: 0.6;
+}
+.lake:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1) translateY(-50%);
+  transform: scale(1) translateY(-50%);
+}
+
